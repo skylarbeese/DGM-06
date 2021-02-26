@@ -13,9 +13,9 @@ const Verbs = verbs.split(" ");
 console.log(Nouns)
  console.log(Ad)
  console.log(Verbs)
-    const MyStory = `once opon a time there was a ${Ad[2]} , ${Nouns[0]} named Floppy, that lived in the ${Nouns[4]} of ${Nouns[3]}
-    there was a ${Nouns[2]} that was ${Ad[1]} and he liked to go ${Verb[0]} in the ${Ad[3]}, ${Nouns[5]}. the ${Nouns[4]} was friends with
-    a ${Nouns[6]} and they lived happly ever after in the ${Nouns[7]}
+    const MyStory = `once apon a time there was a ${Nouns[0]} that lived in a ${ad[0]}, ${Nouns[1]}. the ${Nouns[0]},
+    liked to ${verbs[0]} in the big ${Nouns[2]}. one day he meet his friend ${Nouns[3]} and they both went ${verbs[0]}
+    together after they ${verbs[2]} in the ${ad[1]}, ${Nouns[2]}. they both lived ${ad[2]} ever after as they ${verbs[1]} in the ${Nouns[1]}.
 
     `
     TellMyStory.textContent = MyStory
