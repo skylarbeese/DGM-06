@@ -9,16 +9,16 @@ const nouns = document.querySelector(".nouns").value.toUpperCase()
 
 //let news1 = new String(nouns)
 let news1 = String(nouns)
-const Nouns = news1.split(' ');
+const Nouns = news1.split(' ', 3);
 
 const ad = document.querySelector(".ad").value.toUpperCase()
 
 let news2 =  String(ad)
-const Ad = news2.split(' ');
+const Ad = news2.split(' ', 3);
 
 const verbs = document.querySelector(".verbs").value.toUpperCase()
 let news3 =  String(verbs)
-const Verbs = news3.split(' ');
+const Verbs = news3.split(' ', 3);
 
 //console.log(nouns)
 //const Nouns = nouns.split(" ", 3);
