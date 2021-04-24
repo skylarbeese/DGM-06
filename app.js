@@ -5,18 +5,19 @@ const TellMyStory = document.querySelector(".story")
 document.querySelector(".btn").onclick = () => {
 //function tellStory() {
 
-const nouns = document.querySelector(".nouns").value.toLowerCase()
+const nouns = document.querySelector(".nouns").value
 
-let news1 = new String(nouns)
+//let news1 = new String(nouns)
+let news1 = String(nouns)
 const Nouns = news1.split(' ');
 
-const ad = document.querySelector(".ad").value.toLowerCase()
+const ad = document.querySelector(".ad").value
 
-let news2 = new String(ad)
+let news2 =  String(ad)
 const Ad = news2.split(' ');
 
-const verbs = document.querySelector(".verbs").value.toLowerCase()
-let news3 = new String(verbs)
+const verbs = document.querySelector(".verbs").value
+let news3 =  String(verbs)
 const Verbs = news3.split(' ');
 
 //console.log(nouns)
@@ -27,10 +28,10 @@ const Verbs = news3.split(' ');
 console.log(news1)
 console.log(news2)
 console.log(news3)
- console.log(Ad)
-
-
  console.log(Nouns)
+
+
+ console.log(Ad)
  console.log(Verbs)
 
     const MyStory = `once apon a time there was a ${Nouns[0]} that lived in a ${Ad[0]}, ${Nouns[1]}. the ${Nouns[0]},
