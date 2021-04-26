@@ -5,18 +5,18 @@ const TellMyStory = document.querySelector(".story")
 document.querySelector(".btn").onclick = () => {
 //function tellStory() {
 
-const nouns = document.querySelector(".nouns").value.toUpperCase()
+const nouns = document.querySelector(".nouns").value.toLowerCase()
 
 //let news1 = new String(nouns)
 //let news1 = String(nouns)
 const Nouns = nouns.trim().split(/\s+/);
 
-const ad = document.querySelector(".ad").value.toUpperCase()
+const ad = document.querySelector(".ad").value.toLowerCase()
 
 //let news2 =  String(ad)
 const Ad = ad.trim().split(/\s+/);
 
-const verbs = document.querySelector(".verbs").value.toUpperCase()
+const verbs = document.querySelector(".verbs").value.toLowerCase()
 //let news3 =  String(verbs)
 const Verbs = verbs.trim().split(/\s+/);
 
