@@ -8,26 +8,26 @@ document.querySelector(".btn").onclick = () => {
 const nouns = document.querySelector(".nouns").value.toUpperCase()
 
 //let news1 = new String(nouns)
-let news1 = String(nouns)
-const Nouns = news1.split(' ', 3);
+//let news1 = String(nouns)
+const Nouns = nouns.trim().split(/\s+/);
 
 const ad = document.querySelector(".ad").value.toUpperCase()
 
-let news2 =  String(ad)
-const Ad = news2.split(' ', 3);
+//let news2 =  String(ad)
+const Ad = ad.trim().split(/\s+/);
 
 const verbs = document.querySelector(".verbs").value.toUpperCase()
-let news3 =  String(verbs)
-const Verbs = news3.split(' ', 3);
+//let news3 =  String(verbs)
+const Verbs = verbs.trim().split(/\s+/);
 
 //console.log(nouns)
 //const Nouns = nouns.split(" ", 3);
 //const Nouns = new String(nouns)
 //const Ad = ad.split(" ", 3);
 //const Verbs = verbs.split(" ", 3);
-console.log(news1)
-console.log(news2)
-console.log(news3)
+//console.log(news1)
+//console.log(news2)
+//console.log(news3)
  console.log(Nouns)
 
 
